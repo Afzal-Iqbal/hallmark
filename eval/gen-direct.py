@@ -35,6 +35,9 @@ Output per cell: eval/runs/<briefId>/<armId>-<pack>/
 Python 3.12+, stdlib only.
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import datetime
 import json

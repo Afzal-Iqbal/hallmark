@@ -4,7 +4,6 @@
 .LSOverride
 
 # Editor
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -25,8 +24,6 @@ build/
 .vercel
 
 # Environment + secrets
-.env
-.env.local
 .env.*.local
 
 # Generation pipeline artifacts (raw outputs before commit)
@@ -45,3 +42,4 @@ skills-lock.json
 
 # Local leftover from the old test thumbnails, never published.
 site/_tests/_thumbs/hum-02.jpg
+config.bat
